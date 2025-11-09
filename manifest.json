@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Auto Floating Player",
+  "version": "1.0",
+  "description": "Keep YouTube video visible when scrolling down.",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/watch*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

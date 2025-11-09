@@ -1,0 +1,11 @@
+/* Just to make sure YouTube's own styles don't override */
+#player-theater-container.fixed,
+#player-container.fixed {
+    position: fixed !important;
+    width: 320px !important;
+    height: 180px !important;
+    bottom: 20px !important;
+    right: 20px !important;
+    z-index: 9999 !important;
+    background: black !important;
+}
